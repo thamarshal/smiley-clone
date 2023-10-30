@@ -1,0 +1,435 @@
+/* @font-face {
+    font-family: "GoogleSans";
+    src: url('../fonts/google-sans/ProductSans-Regular.ttf');
+} */
+body{
+    /* font-family: GoogleSans, sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/* ====SEMI-HEADER====== */
+.ads{
+    display: grid; 
+    grid-template-columns:5% 60% 5% 8% 15%;
+    background-color: #f7f7f7;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    font-weight: 500;
+}
+.ads-text{
+    font-weight: 600;
+}
+.fas{
+    margin-right: 10px;
+    font-size: 14px
+}
+/* ========= HEADER======== */
+header{
+    display: grid;
+    grid-template-columns: 13% auto auto auto auto;
+    margin: 30px 40px 30px 40px;
+    background-color: white;
+    width: 100%;
+    z-index: 99;
+    position: sticky;
+    top: 0;
+}
+
+header ul{
+    list-style-type: none;
+    padding: 0;
+}
+header li{
+    display: inline;
+    padding: 15px;
+}
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    font-size:medium;
+}
+.liked{
+    align-content: center;
+    position: relative;
+    top: 10px;
+    right: 30px;
+    background-color: black;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-weight: 650;
+}
+.far{
+    color: white;
+    position: relative;
+    top: 15px;
+    left:32px;
+}
+.like{
+    color: white;
+    position: relative;
+    top: 15px;
+    left:32px;
+}
+.number{
+    background-color: white;
+    border-radius: 100px;
+    padding: 2px;
+    position: relative;
+    top: 5px;
+    left: 35px;
+}
+header input{
+    padding-left: 10px;
+    background-color:#f7f7f7;
+    border:none;
+    position: relative;
+    top: 11px;
+    right: 25px;
+    width: 150px;
+    height: 41px;
+    border-radius: 5px;
+    color: #7a7a7a
+    
+}
+.fa-search{
+    margin-right: 0px;
+    position: relative;
+    top: 16px;
+    right:55px
+}
+.cart-number{
+    /* display: inline; */
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    padding: 10% 23% 10% 23%;
+    position: relative;
+    top: 16px;
+    right: 40px;
+    font-size: 25px;
+}
+/* ========MAIN-1========= */
+.main-1{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    text-transform: uppercase;
+    margin: 0 40px 0 40px;
+}
+.list{
+    background-color: #ffd12f;
+    height: 300px;
+    padding: 40px;
+    width: 350px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+} 
+.list ul{
+    list-style-type: none;
+}
+.list li{
+    padding: 10px;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.list button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 40px 15px 40px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.main-1 video{
+width: 900px;
+height: 450px;
+margin-right: 40px;
+}
+/* =====MAIN 2======= */
+.main-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 40px 60px 40px 60px;
+    color: white;
+    text-align: center;
+   
+}
+.main-21{
+    height: 600px;
+    background-size: cover;
+    background-image: url("../img/yellowwitsock.png");
+    margin: 10px;
+}
+.main-21 h1{
+    margin: 5px;
+    font-size: 60px;
+    font-weight: 700;
+    position: relative;
+    top: 50%;
+}
+.main-21 p{
+    margin: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 65%;
+    position: relative;
+    top: 50%;
+    right: -90px
+}
+.main-21 button{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 10px 20px 10px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    top: 50%;
+}
+.main-22{
+    margin:10px;
+    height: 600px;
+    background-size: cover;
+    background-image: url("../img/lilacultraTS.webp");
+}
+.main-22 h1{
+    margin: 5px;
+    font-size: 60px;
+    font-weight: 700;
+    position: relative;
+    top: 50%;
+}
+.main-22 p{
+    margin: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 65%;
+    position: relative;
+    top: 50%;
+    right: -90px
+}
+.main-22 button{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 10px 20px 10px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    top: 50%;
+}
+/* =====MAIN 3======= */
+.main-3{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    margin: 40px 60px 40px 60px;
+}
+.main-3 img{
+    margin: 20px;
+}
+.main-3 h5{
+    margin: 0 0 5px 0;
+    font-weight: 600;
+}
+/* =====MAIN 4======= */
+.main-4{
+    display: grid;
+    grid-template-columns: auto  auto auto;
+    margin: 40px 60px 40px 60px;
+}
+.main-4 img{
+    width: 410px;
+}
+/* =====MAIN SUB======= */
+.main-{
+    margin: 20px 60px 90px 60px;
+}
+.main- p{  
+    width: 65%;
+    font-size: 20px;
+}
+.main- button{
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+    font-weight: 700;
+}
+/* =====MAIN 5======= */
+.main-5{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    margin: 40px 60px 40px 60px;
+}
+.main-5 img{
+    margin: 5px;
+}
+.main-5 h5{
+    margin: 0 0 5px 0;
+    font-weight: 600;
+}
+/* =====MAIN 6======= */
+.main-6{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 62px;
+    grid-gap: 50px;
+}
+.main-6 img{
+    margin: 5px;
+}
+.main-6 h4{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.main-6 button{
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+    font-weight: 600;
+}
+/* =====MAIN 7======= */
+.main-7{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 40px 60px 40px 60px;
+}
+.main-7 img{
+    margin: 5px;
+}
+.main-7 h5{
+    margin: 0 0 5px 0;
+    font-weight: 600;
+}
+.main-8{
+    display: grid;
+    grid-template-columns: 35% auto;
+    margin: 90px 70px 40px 70px;
+    height: 400px;
+}
+
+.main-82{
+    background-color: #f7f7f7;
+    padding: 45px;
+}
+.main-82 h1{
+    font-size: 36px;
+    font-weight: 700;
+    width: 400px;
+}
+.fa-star{
+    margin: 0;
+}
+.main-82 h2{
+    font-size: 25px;
+    width: 400px;
+}
+.main-82 p{
+    font-weight: 500;
+}
+.submain{
+    margin: 20px 60px 20px 60px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.main-9{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin: 40px 60px 40px 60px;
+}
+.main-10{
+    display: grid;
+    grid-template-columns: auto 560px;
+    margin: 40px 10px 0px 0px;
+}
+.main-11{
+    background-color: #f7f7f7;
+    
+}
+.main-11 h3{
+    font-size: 43px;
+    font-weight: 600;
+    margin: 80px 60px 30px 80px;
+}
+.main-11 input{
+    color: #656565;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    height: 25px;
+    margin:0 0 0 80px;
+}
+.main-11 button{
+    background-color: black;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border: none;
+    border-radius: 3px;
+    font-size: medium;
+    font-weight: 600;
+}
+footer{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: black;
+    height: 400px;
+    margin: 0;
+    color: white;
+}
+.foot1{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin: 40px 20px 40px 100px; 
+}
+.foot1 h5{
+    font-size: 16px;
+    font-weight: 700;
+}
+.foot1 p{
+    font-size: medium;
+    font-weight: 500;
+}
+.foot2{
+    margin: 40px 60px 40px 50px;
+}
+.foot2 h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.foot2 p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.foot2 button{
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 40px;
+    margin: 0 30px 0 0;
+}
+
+img{
+    max-width: 100%;
+}
